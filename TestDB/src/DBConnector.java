@@ -6,6 +6,7 @@ public class DBConnector {
 
 	private static String driverName = "com.mysql.jdbc.Driver";
 	private static String url ="jdbc:mysql://localhost/testdb?autoReconnect=true&useSSL=false";
+
 	private static String user = "root";
 	private static String password = "mysql";
 
@@ -14,13 +15,7 @@ public class DBConnector {
 		Connection con = null;
 
 
-	try
-	{
-		if(Class.forName(driverName) ==null){
-			System.out.println("null");
-		}else{
-			System.out.println("is not null");
-		}
+	try{
 
 		Class.forName(driverName);
 		con = DriverManager.getConnection(url,user,password);
