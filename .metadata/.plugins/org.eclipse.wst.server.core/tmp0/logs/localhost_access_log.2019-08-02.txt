@@ -1,7 +1,0 @@
-127.0.0.1 - - [02/Aug/2019:19:37:45 +0900] "GET / HTTP/1.1" 404 1019
-0:0:0:0:0:0:0:1 - - [02/Aug/2019:19:37:49 +0900] "GET /WebProj4/ HTTP/1.1" 200 2399
-0:0:0:0:0:0:0:1 - - [02/Aug/2019:19:38:00 +0900] "GET /WebProj4/TestAction.action;jsessionid=DF5163374DAF4EA9A3B4C64EDB558D39?username=TARO&password=123 HTTP/1.1" 404 1195
-0:0:0:0:0:0:0:1 - - [02/Aug/2019:19:44:05 +0900] "GET /WebProj4/TestAction.action;jsessionid=DF5163374DAF4EA9A3B4C64EDB558D39?username=TARO&password=123 HTTP/1.1" 404 1195
-0:0:0:0:0:0:0:1 - - [02/Aug/2019:19:46:04 +0900] "GET /WebProj4/TestAction.action;jsessionid=DF5163374DAF4EA9A3B4C64EDB558D39?username=jiro&password=789 HTTP/1.1" 404 1195
-0:0:0:0:0:0:0:1 - - [02/Aug/2019:20:01:42 +0900] "GET /WebProj4/ HTTP/1.1" 200 2179
-0:0:0:0:0:0:0:1 - - [02/Aug/2019:20:01:48 +0900] "GET /WebProj4/TestAction.action?username=taro&password=123 HTTP/1.1" 404 1195

@@ -11,4 +11,6 @@
 <fullyQualifiedTypeName name="com.internousdev.webproj3.util.DBConnector"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="java.sql.ResultSet"/>
+<fullyQualifiedTypeName name="com.internousdev.webproj5.util.DBConnector"/>
+<fullyQualifiedTypeName name="com.internousdev.webproj5.dto.LoginDTO"/>
 </qualifiedTypeNameHistroy>
