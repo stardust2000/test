@@ -1,0 +1,4 @@
+127.0.0.1 - - [09/Aug/2019:20:48:15 +0900] "GET / HTTP/1.1" 404 1019
+0:0:0:0:0:0:0:1 - - [09/Aug/2019:20:48:18 +0900] "GET /WebProj5/ HTTP/1.1" 200 1006
+0:0:0:0:0:0:0:1 - - [09/Aug/2019:20:48:19 +0900] "POST /WebProj5/InquiryAction.action HTTP/1.1" 200 956
+0:0:0:0:0:0:0:1 - - [09/Aug/2019:20:48:25 +0900] "POST /WebProj5/InquiryCompleteAction.action HTTP/1.1" 200 565
