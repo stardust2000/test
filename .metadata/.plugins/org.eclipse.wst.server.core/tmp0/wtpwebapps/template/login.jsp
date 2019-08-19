@@ -84,7 +84,8 @@ body{
 	<div>
 		<div id="footer">
 			<div id="pr">
-			</div></div>
+			</div>
+			</div>
 	</div>
 </body>
 </html>
