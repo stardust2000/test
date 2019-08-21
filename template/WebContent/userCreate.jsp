@@ -62,7 +62,7 @@
 		</div>
 		<div>
 			<s:if test="errorMassage !=">
-				<s:property value="errorMassage escape="false"/>
+				<s:property value="errorMassage" escape="false"/>
 			</s:if>
 			<table>
 			<s:form action="UserCreateConfirmAction">
@@ -82,10 +82,27 @@
 				<input type="text" name="loginPassword" value="">
 				</td>
 			</tr>
-			/*ここから*/
+			<tr>
+
+				<td>
+				<label>ユーザー名:</label>
+				</td>
+				<td><input type="text" name="userName" value=""/>
+				</td>
+			</tr>
+			<s:submit value="登録"/>
 			</s:form>
 			</table>
+
+			<div>
+				<span>前画面に戻る場合は</span>
+				<a href='<s:url action="HomeAction"/>'>こちら</a>
+			</div>
 		</div>
+		</div>
+		<div id="footer">
+			<div id="pr">
+			</div>
 		</div>
 </body>
 </html>
