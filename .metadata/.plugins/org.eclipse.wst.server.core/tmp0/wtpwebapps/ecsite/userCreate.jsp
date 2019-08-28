@@ -75,8 +75,9 @@ table{
 		</div>
 		<div>
 			<s:if test="errorMessage !=''">
-				<s:property value="errormessage" escape="false"/>
+				<s:property value="errorMessage" escape="false"/>
 			</s:if>
+
 			<table>
 				<s:form action="UserCreateConfirmAction">
 					<tr>
